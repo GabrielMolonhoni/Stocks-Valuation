@@ -6,7 +6,14 @@ import Header from './components/header/header'
 function App() {
   return (
     <div className="App">
-      <Header/>      
+      <Header/>    
+      <Card/>
+      <Card/>
+      <Card/>
+      <Card/>
+      <Card/>
+      <Card/>  
+      <Card/>
     </div>
   );
 }

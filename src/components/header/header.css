@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@300&display=swap');
+
 .app-header{
     width: 100vw;
-    height: 10vh;
+    height: 50px;
     background-color: #134666;
     
-    position: static;
+    position: sticky;
+    padding: 0;
     
 }
 
@@ -11,6 +14,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 
     width: 100%;
     height: min-content;
@@ -21,22 +25,50 @@
 .search-box input{
     position: relative;
     background-color: #134666;
-    width: 20%;
-    font-size: 20px;
+    width: 30%;
+    height: 50px;
+    font-size: 18px;
     font-weight: 500;   
     border-style: none;
     border: 0;
+    color: #fcfcfc;
 
-    display: flex;
-    align-self: center;
-    
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    outline: none;
+    padding: 0;
+    text-align: center;
 
+    font-family: 'Roboto', sans-serif;
 }
 
 .search-box button{
-    position: relative;
     background-color: #134666;
-    color: antiquewhite;
+    color: #fcfcfc;
     border: 0;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
 
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    outline: none;
 }
+
+.search-box input::placeholder{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fcfcfc;
+    outline: none;
+    text-align: center;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.search-box input:focus::placeholder {
+    color: transparent;
+  }
