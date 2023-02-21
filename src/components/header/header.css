@@ -1,0 +1,42 @@
+.app-header{
+    width: 100vw;
+    height: 10vh;
+    background-color: #134666;
+    
+    position: static;
+    
+}
+
+.search-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: min-content;
+    border-style: none;
+    vertical-align: middle;
+}
+
+.search-box input{
+    position: relative;
+    background-color: #134666;
+    width: 20%;
+    font-size: 20px;
+    font-weight: 500;   
+    border-style: none;
+    border: 0;
+
+    display: flex;
+    align-self: center;
+    
+
+}
+
+.search-box button{
+    position: relative;
+    background-color: #134666;
+    color: antiquewhite;
+    border: 0;
+
+}
