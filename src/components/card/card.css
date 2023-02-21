@@ -1,6 +1,6 @@
 .card{
     width: 95vw;
-    height: fit-content;
+    height: max-content;
 
     display: flex;
     background-color: #f9f9f9;
@@ -25,19 +25,26 @@
 .body{    
     position: relative;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     vertical-align: middle;
+    width:auto;
 }
 
 .body img{
     width: 50px;
-    padding-top: 20px;
+    padding-top: 5px;
 }
 
 .title{
     margin: 10px;
     align-items: center;
     text-align: center;
+    display: inline-flex;
+}
+.stock_name{
+    padding-left: 20%;
+    width: fit-content;
+    min-width: max-content;
 }
 
 .stock_ticker{
@@ -45,10 +52,14 @@
     font-size: large;
 }
 
-.stock_name{
+.stock_description{
     margin-top: 20px;
     font-weight: 500;
     font-size: large;
+}
+
+.values{
+    display: flex;
 }
 
 .current_value{
