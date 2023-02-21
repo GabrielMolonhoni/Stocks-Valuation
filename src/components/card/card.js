@@ -12,9 +12,7 @@ function Card() {
             <div className="stock_name">
               <div className="stock_ticker">ITSA</div>
               <div className="stock_description">Itausa S.A</div>
-
-            </div>
-            
+            </div>            
           </div>
 
           <div className="values">
